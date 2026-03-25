@@ -1,1 +1,2 @@
 2026-03-25 05:56:23 - feat: initialize database connection pool configuration
+2026-03-25 08:01:19 - fix: correct SQL parameters mismatch inside lesson seeds query
