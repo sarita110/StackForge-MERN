@@ -1,3 +1,4 @@
 2026-03-25 05:56:23 - feat: initialize database connection pool configuration
 2026-03-25 08:01:19 - fix: correct SQL parameters mismatch inside lesson seeds query
 2026-03-26 18:43:13 - fix: solve course view 401 unauthorized page crash
+2026-03-26 21:15:50 - refactor: split server.js into app.js and listener configurations
