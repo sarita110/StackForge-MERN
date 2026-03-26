@@ -2,3 +2,4 @@
 2026-03-25 08:01:19 - fix: correct SQL parameters mismatch inside lesson seeds query
 2026-03-26 18:43:13 - fix: solve course view 401 unauthorized page crash
 2026-03-26 21:15:50 - refactor: split server.js into app.js and listener configurations
+2026-03-26 20:09:58 - feat: add seed files to populate courses and lessons
