@@ -4,3 +4,4 @@
 2026-03-26 21:15:50 - refactor: split server.js into app.js and listener configurations
 2026-03-26 20:09:58 - feat: add seed files to populate courses and lessons
 2026-03-27 08:03:28 - test: write database-backed integration test cases for auth
+2026-03-27 18:41:34 - chore: clean up dependencies and vulnerabilities inside backend
