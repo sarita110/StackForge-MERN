@@ -8,3 +8,4 @@
 2026-03-28 20:54:09 - feat: initialize database connection pool configuration
 2026-03-29 18:17:02 - feat: implement login and registration pages on frontend
 2026-03-30 20:01:14 - feat: create many-to-many join table for lesson progress tracking
+2026-03-30 20:13:47 - feat: build navigation sidebar component with Lucide icons
