@@ -10,3 +10,4 @@
 2026-03-30 20:01:14 - feat: create many-to-many join table for lesson progress tracking
 2026-03-30 20:13:47 - feat: build navigation sidebar component with Lucide icons
 2026-04-01 19:37:13 - feat: implement login and registration pages on frontend
+2026-04-01 21:41:33 - refactor: migrate backend server routes to ES Modules
