@@ -22,3 +22,4 @@
 2026-04-05 20:11:11 - fix: solve course view 401 unauthorized page crash
 2026-04-05 06:18:17 - refactor: split server.js into app.js and listener configurations
 2026-04-06 19:11:42 - feat: write JWT validation security middleware on backend
+2026-04-06 21:35:44 - style: design floating panels with matte glassmorphic borders
