@@ -25,3 +25,4 @@
 2026-04-06 21:35:44 - style: design floating panels with matte glassmorphic borders
 2026-04-06 18:22:14 - feat: create many-to-many join table for lesson progress tracking
 2026-04-07 20:15:27 - test: write database-backed integration test cases for auth
+2026-04-08 08:40:26 - fix: resolve IPv6 localhost address resolution bug on Windows
