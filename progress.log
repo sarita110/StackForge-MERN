@@ -29,3 +29,4 @@
 2026-04-08 05:30:31 - chore: clean up dependencies and vulnerabilities inside backend
 2026-04-09 21:44:58 - fix: solve course view 401 unauthorized page crash
 2026-04-09 05:59:52 - feat: initialize database connection pool configuration
+2026-04-10 20:16:14 - feat: configure Jest and Supertest backend test environments
