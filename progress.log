@@ -34,3 +34,4 @@
 2026-04-10 06:15:50 - feat: configure Jest and Supertest backend test environments
 2026-04-11 07:16:40 - feat: add seed files to populate courses and lessons
 2026-04-11 06:39:15 - feat: implement login and registration pages on frontend
+2026-04-11 21:41:54 - fix: correct SQL parameters mismatch inside lesson seeds query
