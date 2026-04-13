@@ -36,3 +36,4 @@
 2026-04-11 06:39:15 - feat: implement login and registration pages on frontend
 2026-04-11 21:41:54 - fix: correct SQL parameters mismatch inside lesson seeds query
 2026-04-13 20:34:57 - feat: write JWT validation security middleware on backend
+2026-04-13 08:39:07 - perf: optimize dynamic progress card subqueries inside database
