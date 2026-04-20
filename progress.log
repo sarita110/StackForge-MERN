@@ -49,3 +49,4 @@
 2026-04-18 19:49:38 - refactor: split server.js into app.js and listener configurations
 2026-04-19 07:07:00 - fix: solve course view 401 unauthorized page crash
 2026-04-19 21:31:46 - feat: build navigation sidebar component with Lucide icons
+2026-04-20 22:05:36 - fix: resolve IPv6 localhost address resolution bug on Windows
