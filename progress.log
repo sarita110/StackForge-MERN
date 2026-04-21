@@ -52,3 +52,4 @@
 2026-04-20 22:05:36 - fix: resolve IPv6 localhost address resolution bug on Windows
 2026-04-20 18:40:59 - style: design floating panels with matte glassmorphic borders
 2026-04-20 20:01:38 - style: upgrade layout to Tailwind CSS v4 variables
+2026-04-21 07:37:40 - fix: resolve IPv6 localhost address resolution bug on Windows
