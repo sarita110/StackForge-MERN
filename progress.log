@@ -61,3 +61,4 @@
 2026-04-23 07:01:25 - fix: solve course view 401 unauthorized page crash
 2026-04-24 08:08:42 - refactor: migrate backend server routes to ES Modules
 2026-04-24 18:55:38 - refactor: split server.js into app.js and listener configurations
+2026-04-25 20:04:02 - fix: resolve IPv6 localhost address resolution bug on Windows
