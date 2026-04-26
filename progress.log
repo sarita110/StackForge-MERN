@@ -63,3 +63,4 @@
 2026-04-24 18:55:38 - refactor: split server.js into app.js and listener configurations
 2026-04-25 20:04:02 - fix: resolve IPv6 localhost address resolution bug on Windows
 2026-04-25 21:17:35 - fix: correct SQL parameters mismatch inside lesson seeds query
+2026-04-26 19:23:41 - style: design floating panels with matte glassmorphic borders
