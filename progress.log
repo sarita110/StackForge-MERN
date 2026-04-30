@@ -68,3 +68,4 @@
 2026-04-28 08:32:51 - style: design floating panels with matte glassmorphic borders
 2026-04-28 21:32:49 - feat: build admin panel tab to manage user registration status
 2026-04-28 18:59:10 - perf: optimize dynamic progress card subqueries inside database
+2026-04-30 19:24:01 - fix: resolve IPv6 localhost address resolution bug on Windows
