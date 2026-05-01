@@ -71,3 +71,4 @@
 2026-04-30 19:24:01 - fix: resolve IPv6 localhost address resolution bug on Windows
 2026-04-30 06:00:17 - fix: solve course view 401 unauthorized page crash
 2026-05-01 19:59:36 - feat: create many-to-many join table for lesson progress tracking
+2026-05-01 20:28:05 - perf: optimize dynamic progress card subqueries inside database
