@@ -78,3 +78,4 @@
 2026-05-03 22:37:23 - fix: resolve IPv6 localhost address resolution bug on Windows
 2026-05-04 18:58:39 - feat: add seed files to populate courses and lessons
 2026-05-06 19:08:02 - feat: set up React Router dom and layout structures
+2026-05-06 05:14:09 - docs: update documentation configuration references
