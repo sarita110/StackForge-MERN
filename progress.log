@@ -80,3 +80,4 @@
 2026-05-06 19:08:02 - feat: set up React Router dom and layout structures
 2026-05-06 05:14:09 - docs: update documentation configuration references
 2026-05-06 08:11:52 - feat: add seed files to populate courses and lessons
+2026-05-07 07:46:38 - fix: correct SQL parameters mismatch inside lesson seeds query
