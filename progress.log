@@ -84,3 +84,4 @@
 2026-05-09 06:29:27 - feat: create many-to-many join table for lesson progress tracking
 2026-05-09 21:54:08 - perf: optimize dynamic progress card subqueries inside database
 2026-05-09 05:04:11 - refactor: migrate backend server routes to ES Modules
+2026-05-10 06:26:25 - feat: set up React Router dom and layout structures
