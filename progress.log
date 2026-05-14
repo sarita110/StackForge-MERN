@@ -90,3 +90,4 @@
 2026-05-11 07:50:44 - feat: build admin panel tab to manage user registration status
 2026-05-12 21:35:59 - feat: set up React Router dom and layout structures
 2026-05-12 08:09:23 - feat: build admin panel tab to manage user registration status
+2026-05-14 18:14:12 - perf: optimize dynamic progress card subqueries inside database
