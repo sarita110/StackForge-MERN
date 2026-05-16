@@ -94,3 +94,4 @@
 2026-05-14 19:34:33 - feat: configure Jest and Supertest backend test environments
 2026-05-14 19:36:19 - docs: update documentation configuration references
 2026-05-15 05:35:14 - feat: create many-to-many join table for lesson progress tracking
+2026-05-16 07:18:02 - chore: clean up dependencies and vulnerabilities inside backend
