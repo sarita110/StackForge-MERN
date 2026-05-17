@@ -98,3 +98,4 @@
 2026-05-16 05:50:47 - fix: correct SQL parameters mismatch inside lesson seeds query
 2026-05-16 19:28:20 - feat: build admin panel tab to manage user registration status
 2026-05-17 08:32:47 - refactor: migrate backend server routes to ES Modules
+2026-05-17 20:29:26 - feat: create many-to-many join table for lesson progress tracking
