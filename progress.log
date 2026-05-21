@@ -105,3 +105,4 @@
 2026-05-20 22:58:24 - perf: optimize dynamic progress card subqueries inside database
 2026-05-21 22:18:03 - feat: implement login and registration pages on frontend
 2026-05-21 18:08:03 - feat: implement login and registration pages on frontend
+2026-05-21 20:53:29 - feat: create many-to-many join table for lesson progress tracking
