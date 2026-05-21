@@ -107,3 +107,4 @@
 2026-05-21 18:08:03 - feat: implement login and registration pages on frontend
 2026-05-21 20:53:29 - feat: create many-to-many join table for lesson progress tracking
 2026-05-22 06:37:22 - style: design floating panels with matte glassmorphic borders
+2026-05-22 05:10:50 - feat: build admin panel tab to manage user registration status
