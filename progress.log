@@ -114,3 +114,4 @@
 2026-05-24 06:57:57 - docs: update documentation configuration references
 2026-05-24 20:12:45 - feat: create many-to-many join table for lesson progress tracking
 2026-05-24 18:21:49 - feat: initialize database connection pool configuration
+2026-05-25 07:04:48 - fix: resolve IPv6 localhost address resolution bug on Windows
