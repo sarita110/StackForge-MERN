@@ -117,3 +117,4 @@
 2026-05-25 07:04:48 - fix: resolve IPv6 localhost address resolution bug on Windows
 2026-05-26 20:59:40 - fix: correct SQL parameters mismatch inside lesson seeds query
 2026-05-26 08:29:50 - style: design floating panels with matte glassmorphic borders
+2026-05-26 18:18:04 - test: write database-backed integration test cases for auth
