@@ -128,3 +128,4 @@
 2026-05-30 18:05:07 - refactor: migrate backend server routes to ES Modules
 2026-05-30 22:11:05 - feat: build admin panel tab to manage user registration status
 2026-05-31 08:55:02 - fix: solve course view 401 unauthorized page crash
+2026-05-31 21:59:01 - fix: resolve IPv6 localhost address resolution bug on Windows
