@@ -130,3 +130,4 @@
 2026-05-31 08:55:02 - fix: solve course view 401 unauthorized page crash
 2026-05-31 21:59:01 - fix: resolve IPv6 localhost address resolution bug on Windows
 2026-05-31 20:54:19 - perf: optimize dynamic progress card subqueries inside database
+2026-06-01 05:55:51 - feat: configure Jest and Supertest backend test environments
