@@ -136,3 +136,4 @@
 2026-06-03 21:54:39 - refactor: migrate backend server routes to ES Modules
 2026-06-03 22:35:31 - feat: configure Jest and Supertest backend test environments
 2026-06-05 19:23:46 - feat: write JWT validation security middleware on backend
+2026-06-05 19:05:02 - fix: solve course view 401 unauthorized page crash
