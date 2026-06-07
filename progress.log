@@ -139,3 +139,4 @@
 2026-06-05 19:05:02 - fix: solve course view 401 unauthorized page crash
 2026-06-05 07:59:49 - feat: build navigation sidebar component with Lucide icons
 2026-06-06 08:07:18 - perf: optimize dynamic progress card subqueries inside database
+2026-06-08 05:23:27 - chore: clean up dependencies and vulnerabilities inside backend
