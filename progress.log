@@ -145,3 +145,4 @@
 2026-06-09 19:25:13 - chore: clean up dependencies and vulnerabilities inside backend
 2026-06-09 19:31:48 - feat: build navigation sidebar component with Lucide icons
 2026-06-10 19:00:05 - feat: write JWT validation security middleware on backend
+2026-06-10 20:40:40 - fix: correct SQL parameters mismatch inside lesson seeds query
