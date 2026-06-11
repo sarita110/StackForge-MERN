@@ -148,3 +148,4 @@
 2026-06-10 20:40:40 - fix: correct SQL parameters mismatch inside lesson seeds query
 2026-06-11 21:30:09 - feat: build admin panel tab to manage user registration status
 2026-06-11 19:34:50 - feat: set up React Router dom and layout structures
+2026-06-11 08:43:38 - chore: clean up dependencies and vulnerabilities inside backend
