@@ -153,3 +153,4 @@
 2026-06-12 08:07:32 - feat: configure Jest and Supertest backend test environments
 2026-06-12 18:25:52 - style: design floating panels with matte glassmorphic borders
 2026-06-13 20:15:52 - fix: resolve IPv6 localhost address resolution bug on Windows
+2026-06-14 07:59:52 - feat: create many-to-many join table for lesson progress tracking
