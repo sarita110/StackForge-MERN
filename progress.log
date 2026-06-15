@@ -156,3 +156,4 @@
 2026-06-14 07:59:52 - feat: create many-to-many join table for lesson progress tracking
 2026-06-14 19:03:43 - feat: create many-to-many join table for lesson progress tracking
 2026-06-15 07:22:27 - docs: update documentation configuration references
+2026-06-15 19:15:20 - chore: clean up dependencies and vulnerabilities inside backend
