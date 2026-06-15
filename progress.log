@@ -157,3 +157,4 @@
 2026-06-14 19:03:43 - feat: create many-to-many join table for lesson progress tracking
 2026-06-15 07:22:27 - docs: update documentation configuration references
 2026-06-15 19:15:20 - chore: clean up dependencies and vulnerabilities inside backend
+2026-06-15 21:30:22 - feat: build admin panel tab to manage user registration status
