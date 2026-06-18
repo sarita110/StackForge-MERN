@@ -162,3 +162,4 @@
 2026-06-16 08:44:44 - feat: create many-to-many join table for lesson progress tracking
 2026-06-17 20:25:10 - feat: build admin panel tab to manage user registration status
 2026-06-18 06:59:31 - test: write database-backed integration test cases for auth
+2026-06-18 21:31:37 - style: upgrade layout to Tailwind CSS v4 variables
