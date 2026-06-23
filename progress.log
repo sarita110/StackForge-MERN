@@ -174,3 +174,4 @@
 2026-06-22 07:35:37 - chore: clean up dependencies and vulnerabilities inside backend
 2026-06-23 08:37:52 - feat: set up React Router dom and layout structures
 2026-06-23 22:22:55 - fix: solve course view 401 unauthorized page crash
+2026-06-23 08:15:51 - fix: resolve IPv6 localhost address resolution bug on Windows
