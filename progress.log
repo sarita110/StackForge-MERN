@@ -175,3 +175,4 @@
 2026-06-23 08:37:52 - feat: set up React Router dom and layout structures
 2026-06-23 22:22:55 - fix: solve course view 401 unauthorized page crash
 2026-06-23 08:15:51 - fix: resolve IPv6 localhost address resolution bug on Windows
+2026-06-24 21:45:05 - perf: optimize dynamic progress card subqueries inside database
