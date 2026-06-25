@@ -178,3 +178,4 @@
 2026-06-24 21:45:05 - perf: optimize dynamic progress card subqueries inside database
 2026-06-24 06:17:29 - perf: optimize dynamic progress card subqueries inside database
 2026-06-25 19:17:14 - feat: add seed files to populate courses and lessons
+2026-06-25 08:40:41 - feat: build navigation sidebar component with Lucide icons
