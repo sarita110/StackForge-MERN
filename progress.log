@@ -180,3 +180,4 @@
 2026-06-25 19:17:14 - feat: add seed files to populate courses and lessons
 2026-06-25 08:40:41 - feat: build navigation sidebar component with Lucide icons
 2026-06-26 21:09:22 - perf: optimize dynamic progress card subqueries inside database
+2026-06-26 08:15:56 - feat: write JWT validation security middleware on backend
