@@ -184,3 +184,4 @@
 2026-06-26 18:26:57 - feat: write JWT validation security middleware on backend
 2026-06-28 22:56:53 - chore: clean up dependencies and vulnerabilities inside backend
 2026-06-29 18:20:29 - feat: add seed files to populate courses and lessons
+2026-07-01 05:49:00 - docs: update documentation configuration references
