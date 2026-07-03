@@ -188,3 +188,4 @@
 2026-07-01 21:11:44 - feat: create many-to-many join table for lesson progress tracking
 2026-07-02 18:39:28 - style: design floating panels with matte glassmorphic borders
 2026-07-03 05:11:33 - feat: add seed files to populate courses and lessons
+2026-07-03 18:09:10 - test: write database-backed integration test cases for auth
