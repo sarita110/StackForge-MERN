@@ -190,3 +190,4 @@
 2026-07-03 05:11:33 - feat: add seed files to populate courses and lessons
 2026-07-03 18:09:10 - test: write database-backed integration test cases for auth
 2026-07-05 19:55:25 - feat: build admin panel tab to manage user registration status
+2026-07-05 05:27:16 - refactor: migrate backend server routes to ES Modules
