@@ -193,3 +193,4 @@
 2026-07-05 05:27:16 - refactor: migrate backend server routes to ES Modules
 2026-07-05 18:07:59 - feat: initialize database connection pool configuration
 2026-07-06 18:13:04 - fix: correct SQL parameters mismatch inside lesson seeds query
+2026-07-06 05:36:20 - fix: resolve IPv6 localhost address resolution bug on Windows
