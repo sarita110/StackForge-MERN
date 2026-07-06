@@ -192,3 +192,4 @@
 2026-07-05 19:55:25 - feat: build admin panel tab to manage user registration status
 2026-07-05 05:27:16 - refactor: migrate backend server routes to ES Modules
 2026-07-05 18:07:59 - feat: initialize database connection pool configuration
+2026-07-06 18:13:04 - fix: correct SQL parameters mismatch inside lesson seeds query
