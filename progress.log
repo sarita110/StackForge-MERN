@@ -194,3 +194,4 @@
 2026-07-05 18:07:59 - feat: initialize database connection pool configuration
 2026-07-06 18:13:04 - fix: correct SQL parameters mismatch inside lesson seeds query
 2026-07-06 05:36:20 - fix: resolve IPv6 localhost address resolution bug on Windows
+2026-07-07 05:06:00 - feat: implement login and registration pages on frontend
