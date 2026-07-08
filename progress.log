@@ -198,3 +198,4 @@
 2026-07-07 22:41:02 - refactor: split server.js into app.js and listener configurations
 2026-07-07 21:23:50 - docs: update documentation configuration references
 2026-07-08 22:47:00 - fix: resolve IPv6 localhost address resolution bug on Windows
+2026-07-08 22:19:00 - docs: update documentation configuration references
