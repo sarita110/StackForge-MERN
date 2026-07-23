@@ -220,3 +220,4 @@
 2026-07-22 21:10:31 - feat: create many-to-many join table for lesson progress tracking
 2026-07-22 19:15:01 - feat: configure Jest and Supertest backend test environments
 2026-07-23 22:35:49 - feat: build admin panel tab to manage user registration status
+2026-07-23 20:14:58 - feat: write JWT validation security middleware on backend
