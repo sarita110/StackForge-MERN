@@ -229,3 +229,4 @@
 2026-07-25 05:11:46 - feat: set up React Router dom and layout structures
 2026-07-26 06:49:02 - refactor: split server.js into app.js and listener configurations
 2026-07-27 08:04:55 - refactor: split server.js into app.js and listener configurations
+2026-07-27 20:08:25 - fix: solve course view 401 unauthorized page crash
