@@ -232,3 +232,4 @@
 2026-07-27 20:08:25 - fix: solve course view 401 unauthorized page crash
 2026-07-27 05:52:50 - feat: set up React Router dom and layout structures
 2026-07-28 21:55:38 - feat: write JWT validation security middleware on backend
+2026-07-28 05:50:49 - refactor: split server.js into app.js and listener configurations
