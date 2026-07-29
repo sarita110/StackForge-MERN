@@ -235,3 +235,4 @@
 2026-07-28 05:50:49 - refactor: split server.js into app.js and listener configurations
 2026-07-28 06:07:32 - feat: build admin panel tab to manage user registration status
 2026-07-29 07:03:31 - fix: correct SQL parameters mismatch inside lesson seeds query
+2026-07-29 07:26:51 - docs: update documentation configuration references
