@@ -237,3 +237,4 @@
 2026-07-29 07:03:31 - fix: correct SQL parameters mismatch inside lesson seeds query
 2026-07-29 07:26:51 - docs: update documentation configuration references
 2026-07-29 20:50:04 - feat: create many-to-many join table for lesson progress tracking
+2026-07-30 06:01:47 - fix: resolve IPv6 localhost address resolution bug on Windows
