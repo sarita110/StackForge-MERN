@@ -7,6 +7,7 @@ export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
   const [token, setToken] = useState(localStorage.getItem("token"));
   const [loading, setLoading] = useState(true);
+  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
 
   // Sync token and user states on initialization
   useEffect(() => {
@@ -25,7 +26,7 @@ export function AuthProvider({ children }) {
 
   // Login handler
   const login = async (email, password) => {
-    const response = await axios.post("http://localhost:5000/api/auth/login", {
+    const response = await axios.post(`${API_URL}/api/auth/login`, {
       email,
       password,
     });
@@ -41,7 +42,7 @@ export function AuthProvider({ children }) {
   // Registration handler
   const register = async (username, email, password) => {
     const response = await axios.post(
-      "http://localhost:5000/api/auth/register",
+      `${API_URL}/api/auth/register`,
       { username, email, password },
     );
     const { user: registeredUser, token: authToken } = response.data;

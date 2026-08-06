@@ -25,16 +25,15 @@ export default function CourseView() {
   const [completedLessons, setCompletedLessons] = useState([]);
   const [toggling, setToggling] = useState(false);
 
+  const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+
   useEffect(() => {
     const fetchCourseAndProgress = async () => {
       try {
         // 1. Fetch main course details (Updated to pass Bearer token!)
-        const courseRes = await axios.get(
-          `http://localhost:5000/api/courses/${id}`,
-          {
-            headers: { Authorization: `Bearer ${token}` },
-          },
-        );
+        const courseRes = await axios.get(`${API_URL}/api/courses/${id}`, {
+          headers: { Authorization: `Bearer ${token}` },
+        });
         setCourse(courseRes.data);
         if (courseRes.data.lessons && courseRes.data.lessons.length > 0) {
           setActiveLesson(courseRes.data.lessons[0]);
@@ -42,7 +41,7 @@ export default function CourseView() {
 
         // 2. Fetch completed progress array (Passing Bearer token)
         const progressRes = await axios.get(
-          `http://localhost:5000/api/progress/course/${id}`,
+          `${API_URL} /api/progress/course/${id}`,
           {
             headers: { Authorization: `Bearer ${token}` },
           },
@@ -67,7 +66,7 @@ export default function CourseView() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/progress/toggle",
+        `${API_URL}/api/progress/toggle`,
         { lesson_id: lessonId },
         { headers: { Authorization: `Bearer ${token}` } },
       );
