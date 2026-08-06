@@ -1,10 +1,3 @@
-Here is a professional, industry-ready `README.md` file designed for your repository. It explains the project architecture, database design, installation steps, and testing instructions clearly to technical interviewers and developers.
-
----
-
-### `README.md` (Save in Root Directory)
-
-````markdown
 # StackForge — Full-Stack Meta-Learning Platform
 
 StackForge is a lightweight, full-stack Learning Management System (LMS) built with React, Node.js, Express, and a relational PostgreSQL database hosted inside a Docker container. The platform implements secure student session management, interactive syllabus workflows, and real-time user study progress tracking.
@@ -60,6 +53,7 @@ The application utilizes a relational schema to enforce strict data integrity:
                                   | completed_at (TS)     |
                                   +-----------------------+
 ```
+
 ````
 
 ---
@@ -166,3 +160,4 @@ To simplify testing user registration approvals, course management, and progress
 
 
 
+````
