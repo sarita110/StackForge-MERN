@@ -54,8 +54,6 @@ The application utilizes a relational schema to enforce strict data integrity:
                                   +-----------------------+
 ```
 
-````
-
 ---
 
 ## Installation & Setup Instructions
@@ -156,8 +154,3 @@ To simplify testing user registration approvals, course management, and progress
 - **Email**: `pending@stackforge.com`
 - **Password**: `student123`
 - _Privileges: Blocked from application workspace until manually set to "approved" inside the Admin Control panel._
-
-
-
-
-````
