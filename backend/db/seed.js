@@ -19,7 +19,7 @@ services:
       POSTGRES_DB: stackforge
     ports:
       - "5434:5432"
-\`\`s
+\`\`\`
 
 ---
 
