@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { useAuth } from "../context/AuthContext"; // 👈 Import auth context for session token
 import axios from "axios";
+import ReactMarkdown from "react-markdown";
 
 export default function CourseView() {
   const { id } = useParams();
@@ -41,7 +42,7 @@ export default function CourseView() {
 
         // 2. Fetch completed progress array (Passing Bearer token)
         const progressRes = await axios.get(
-          `${API_URL} /api/progress/course/${id}`,
+          `${API_URL}/api/progress/course/${id}`,
           {
             headers: { Authorization: `Bearer ${token}` },
           },
@@ -204,9 +205,59 @@ export default function CourseView() {
                   </h2>
                 </div>
 
-                {/* Lesson Contents */}
-                <div className="text-sm text-slate-300 leading-relaxed min-h-[150px]">
-                  <p>{activeLesson.content}</p>
+                {/* Lesson Contents (Parsed dynamically from database markdown strings) */}
+                <div className="min-h-[150px] text-slate-300">
+                  <ReactMarkdown
+                    components={{
+                      h3: ({ node, ...props }) => (
+                        <h3
+                          className="text-lg font-bold text-white mt-6 mb-2 tracking-tight border-b border-brand-border/30 pb-1"
+                          {...props}
+                        />
+                      ),
+                      h4: ({ node, ...props }) => (
+                        <h4
+                          className="text-xs font-bold text-brand-accent-light mt-5 mb-1.5 font-mono uppercase tracking-wider"
+                          {...props}
+                        />
+                      ),
+                      p: ({ node, ...props }) => (
+                        <p
+                          className="text-slate-300 leading-relaxed mb-4 text-xs sm:text-sm"
+                          {...props}
+                        />
+                      ),
+                      ul: ({ node, ...props }) => (
+                        <ul
+                          className="list-disc pl-5 mb-4 space-y-1.5 text-slate-300 text-xs sm:text-sm"
+                          {...props}
+                        />
+                      ),
+                      ol: ({ node, ...props }) => (
+                        <ol
+                          className="list-decimal pl-5 mb-4 space-y-1.5 text-slate-300 text-xs sm:text-sm"
+                          {...props}
+                        />
+                      ),
+                      li: ({ node, ...props }) => (
+                        <li className="mb-1 text-slate-300" {...props} />
+                      ),
+                      code: ({ node, inline, ...props }) =>
+                        inline ? (
+                          <code
+                            className="bg-brand-bg px-1.5 py-0.5 rounded text-brand-accent-light font-mono text-[11px] border border-brand-border/50"
+                            {...props}
+                          />
+                        ) : (
+                          <pre
+                            className="bg-brand-bg border border-brand-border p-4 rounded-lg overflow-x-auto text-xs font-mono text-slate-300 my-4 shadow-inner"
+                            {...props}
+                          />
+                        ),
+                    }}
+                  >
+                    {activeLesson.content}
+                  </ReactMarkdown>
                 </div>
               </div>
 
