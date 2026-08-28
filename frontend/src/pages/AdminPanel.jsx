@@ -44,7 +44,7 @@ export default function AdminPanel() {
     order_number: "",
   });
   const [showLessonForm, setShowLessonForm] = useState(false);
-
+  const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
   const axiosConfig = { headers: { Authorization: `Bearer ${token}` } };
 
   // Fetch initial dataset on tab mounts
@@ -58,19 +58,19 @@ export default function AdminPanel() {
     try {
       if (activeTab === "users") {
         const res = await axios.get(
-          "http://localhost:5000/api/admin/users",
+          `${API_URL}/api/admin/users`,
           axiosConfig,
         );
         setUsers(res.data);
       } else if (activeTab === "courses") {
         const res = await axios.get(
-          "http://localhost:5000/api/courses",
+          `${API_URL}/api/courses`,
           axiosConfig,
         );
         setCourses(res.data);
       } else if (activeTab === "lessons") {
         const res = await axios.get(
-          "http://localhost:5000/api/courses",
+          `${API_URL}/api/courses`,
           axiosConfig,
         );
         setCourses(res.data);
@@ -96,7 +96,7 @@ export default function AdminPanel() {
   const fetchLessons = async (courseId) => {
     try {
       const res = await axios.get(
-        `http://localhost:5000/api/courses/${courseId}`,
+        `${API_URL}/api/courses/${courseId}`,
         axiosConfig,
       );
       setLessons(res.data.lessons || []);
@@ -109,7 +109,7 @@ export default function AdminPanel() {
   const handleUserStatusChange = async (userId, newStatus) => {
     try {
       await axios.put(
-        `http://localhost:5000/api/admin/users/${userId}/status`,
+        `${API_URL}/api/admin/users/${userId}/status`,
         { status: newStatus },
         axiosConfig,
       );
@@ -128,14 +128,14 @@ export default function AdminPanel() {
       if (courseForm.id) {
         // Edit Course
         await axios.put(
-          `http://localhost:5000/api/courses/${courseForm.id}`,
+          `${API_URL}/api/courses/${courseForm.id}`,
           courseForm,
           axiosConfig,
         );
       } else {
         // Create Course
         await axios.post(
-          "http://localhost:5000/api/courses",
+          `${API_URL}/api/courses`,
           courseForm,
           axiosConfig,
         );
@@ -157,7 +157,7 @@ export default function AdminPanel() {
       return;
     try {
       await axios.delete(
-        `http://localhost:5000/api/courses/${courseId}`,
+        `${API_URL}/api/courses/${courseId}`,
         axiosConfig,
       );
       fetchData();
@@ -173,14 +173,14 @@ export default function AdminPanel() {
       if (lessonForm.id) {
         // Edit Lesson
         await axios.put(
-          `http://localhost:5000/api/courses/${selectedCourse.id}/lessons/${lessonForm.id}`,
+          `${API_URL}/api/courses/${selectedCourse.id}/lessons/${lessonForm.id}`,
           lessonForm,
           axiosConfig,
         );
       } else {
         // Create Lesson
         await axios.post(
-          `http://localhost:5000/api/courses/${selectedCourse.id}/lessons`,
+          `${API_URL}/api/courses/${selectedCourse.id}/lessons`,
           lessonForm,
           axiosConfig,
         );
@@ -197,7 +197,7 @@ export default function AdminPanel() {
     if (!window.confirm("Delete this lesson?")) return;
     try {
       await axios.delete(
-        `http://localhost:5000/api/courses/${selectedCourse.id}/lessons/${lessonId}`,
+       `${API_URL}/api/courses/${selectedCourse.id}/lessons/${lessonId}`,
         axiosConfig,
       );
       fetchLessons(selectedCourse.id);

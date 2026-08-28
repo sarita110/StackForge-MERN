@@ -23,7 +23,7 @@ export default function Dashboard() {
     const fetchCourses = async () => {
       try {
         // Pass session token inside headers
-        const response = await axios.get("http://localhost:5000/api/courses", {
+        const response = await axios.get(`${API_URL}/api/courses`, {
           headers: { Authorization: `Bearer ${token}` },
         });
         setCourses(response.data);
